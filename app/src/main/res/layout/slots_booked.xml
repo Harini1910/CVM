@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#F4F2F2"
+    android:elevation="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="7dp">
+
+    <LinearLayout android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/vaccine_icon"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#D0312D"
+                android:textIsSelectable="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Booking details"
+                android:id="@+id/User"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Patient:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/patient"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Gender:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/gender"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Age:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/patient_age"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Address:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/user_address"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Email:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/user_email"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#333131"
+                android:text="Mobile:"/>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/mobile"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Accept Booking"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/accept"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
